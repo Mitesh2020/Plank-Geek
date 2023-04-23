@@ -102,7 +102,7 @@ if(isset($_POST['search'])) {
     <p class='card-text'><i>Water</i> : $water</p>
     <p class='card-text'><i>Temperature</i> : $temperature</p>
     <p class='card-text'><i>Best For</i> : $best</p>
-    <a href='#' class='btn btn-primary'>More information</a>
+    <a href='https://www.google.com/search?q=$name+care' class='btn btn-primary'>More information</a>
   </div>
 </div>
 </div>
