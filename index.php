@@ -4,6 +4,12 @@
 <head>
 	<title>LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+.logo {
+  width: 14spx;
+  height: 14px;
+}
+	</style>
 </head>
 <body>
 <?php generateGoogleTranslate(); ?>
@@ -19,6 +25,7 @@
      	<input type="password" name="password" placeholder="Password"><br>
 
      	<button type="submit">Login</button>
+		<a href="index2.php" style="font-size:13px;">Login with &nbsp <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png" class="logo"></a>
      </form>
 </body>
 </html>
