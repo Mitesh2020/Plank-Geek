@@ -53,11 +53,11 @@
 <form class="text-white" style="margin-bottom:100px;" action="upload.php" method="POST" enctype="multipart/form-data">
     <h1 class="text-center opacity-50" style="margin-top:50px; margin-bottom:50px;">Plant Details</h1>
     <label style="margin-left:500px;">Image :</label>
-    <input type="file" name="image"  /><br><br>
+    <input type="file" name="image"  required/><br><br>
     <label style="margin-left:500px;">Name :</label>
-    <input type="text" placeholder="eg. Rose, Snake Plant etc." name="name" size="50" /><br><br>
+    <input type="text" placeholder="eg. Rose, Snake Plant etc." name="name" size="50" required/><br><br>
     <label style="margin-left:508px;">Type :</label>
-    <select id="options" name="options">
+    <select id="options" name="options" required>
   <option value="Angiosperms">Angiosperms</option>
   <option value="Gymnosperms">Gymnosperms</option>
   <option value="Ferns">Ferns</option>
@@ -66,11 +66,11 @@
   <option value="Fungi">Fungi</option>
 </select><br><br>
     <label style="margin-left:500px;">Water :</label>
-    <input type="text" placeholder="eg. In every 2-4 weeks." name="water" size="50" /><br><br>
+    <input type="text" placeholder="eg. In every 2-4 weeks." name="water" size="50" required/><br><br>
     <label style="margin-left:453px;">Temperature :</label>
-    <input type="text" placeholder="eg. Between 60-85°F (15-29°C)." name="temperature" size="50" /><br><br>
+    <input type="text" placeholder="eg. Between 60-85°F (15-29°C)." name="temperature" size="50" required/><br><br>
     <label style="margin-left:488px;">Best for :</label>
-    <input type="text" placeholder="eg. Indoor/Outdoor." name="best" size="50" /><br><br>
+    <input type="text" placeholder="eg. Indoor/Outdoor." name="best" size="50" required/><br><br>
     <input type="submit" style="margin-left:553px;" class="btn btn-outline-success" name="submit"/><br><br>
 </form>
 
